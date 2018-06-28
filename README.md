@@ -5,7 +5,11 @@ It was necessary to create HTTP server which handle GET requests in the next way
 
 ## How to run server and tests
 Run server:
-        python main.py [xxxx]
+
+		python main.py [xxxx]
+        
 Run tests (don't need to run the server)
-        pybot [--variable PORT:xxxx] test_server.robot
+
+		pybot [--variable PORT:xxxx] test_server.robot
+        
 Defined port xxxx=8080
